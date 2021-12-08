@@ -1,5 +1,5 @@
 {
-  "name": "hello-node",
+  "name": "picophone",
   "version": "0.0.1",
   "description": "A simple Node app built on fastify, instantly up and running.",
   "main": "index.js",

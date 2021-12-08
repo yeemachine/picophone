@@ -104,7 +104,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (48:2) <Grid bind:items={items} on:change={handleChange} throttleUpdate={100} fillSpace={false} rowHeight={artboardW/34} gap={[0, 0]} let:item let:dataItem {cols}>
+// (49:2) <Grid bind:items={items} on:change={handleChange} throttleUpdate={100} fillSpace={false} rowHeight={artboardW/34} gap={[0, 0]} let:item let:dataItem {cols}>
 function create_default_slot(ctx) {
 	let div;
 	let img;
@@ -117,8 +117,8 @@ function create_default_slot(ctx) {
 			img = element("img");
 			attr(img, "id", img_id_value = /*dataItem*/ ctx[12].id);
 			if (!src_url_equal(img.src, img_src_value = /*imageURL*/ ctx[3](/*dataItem*/ ctx[12].type, /*dataItem*/ ctx[12].font))) attr(img, "src", img_src_value);
-			attr(img, "class", "svelte-id4hsm");
-			attr(div, "class", "grid-item svelte-id4hsm");
+			attr(img, "class", "svelte-fdyfqy");
+			attr(div, "class", "grid-item svelte-fdyfqy");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
@@ -181,8 +181,8 @@ function create_fragment(ctx) {
 			attr(svg, "width", "775");
 			attr(svg, "height", "775");
 			attr(svg, "viewBox", "-500 -500 1000 1000");
-			attr(svg, "class", "svelte-id4hsm");
-			attr(container, "class", "svelte-id4hsm");
+			attr(svg, "class", "svelte-fdyfqy");
+			attr(container, "class", "svelte-fdyfqy");
 			add_render_callback(() => /*container_elementresize_handler*/ ctx[8].call(container));
 		},
 		m(target, anchor) {

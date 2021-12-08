@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
   }
+  
   img{
     position:relative;
     width:100%;
