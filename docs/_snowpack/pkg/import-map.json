@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "pixi.js": "./pixijs.js",
+    "svelte": "./svelte.js",
+    "svelte-grid": "./svelte-grid.js",
+    "svelte-grid/build/helper/index.mjs": "./svelte-grid/build/helper/index.js",
+    "svelte/internal": "./svelte/internal.js",
+    "svelte/store": "./svelte/store.js"
+  }
+}

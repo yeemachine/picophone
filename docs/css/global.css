@@ -1,0 +1,73 @@
+body {
+  --bgThemeLight:#537b8a;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+i,
+input,
+button,select {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight:400
+}
+
+.hide-scrollbar {
+  /*FireFox*/
+  scrollbar-width: none;
+  /*IE10+*/
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  /*Chrome, Safari, Edge*/
+  display: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* a subtle focus style for keyboard-input elements */
+.text-input:focus {
+  outline: 1px solid #aaa; /* Adjust to suit your tastes */
+}
+
+/* no outline for non-keyboard-inputs elements */
+button:focus,
+input:focus,
+label:focus,
+select:focus {
+  outline: none;
+}
+
+body.user-is-tabbing *:focus,
+body.user-is-tabbing input:focus + container {
+  outline: 2px solid #7aacfe !important; /* for non-webkit browsers */
+  outline: 5px auto -webkit-focus-ring-color !important;
+}
+
+.no_highlights {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
